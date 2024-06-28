@@ -14,16 +14,13 @@ const Experience = () => {
             <h3>Software Engineering Intern</h3>
             <article className='experience__details'>
               <GoDotFill className='experience__details-icon'/>
-                <small className='text-light'>Achieved 80% faster and more scalable push notification delivery by designing and implementing a high-performance microservice, enhancing user experience and engagement.</small>
-            </article>
+                <small className='text-light'>●	Developed and maintained ASP.NET MVC applications, including RESTful APIs and web pages, resulting in a 30% reduction in code defects and a 20% increase in application performance.</small></article>
             <article className='experience__details'>
               <GoDotFill className='experience__details-icon'/>
-                <small className='text-light'>Reduced message latency with WebSocket’s for efficient and reliable communication.</small>
-            </article>
+                <small className='text-light'> ●	Refactored legacy .NET 4.8 Framework code to adhere to modern development patterns and frameworks, reducing technical debt and improving application maintainability and testability using .NET 7 Core. </small></article>
             <article className='experience__details'>
               <GoDotFill className='experience__details-icon'/>
-                <small className='text-light'>Increased user engagement by 50% and decreased email notifications by 30%, orchestrating the end-to-end service lifecycle to provide customers with seamless access and utilization, enhancing their experience.</small>
-            </article>
+                <small className='text-light'> ●	Designed Razor views with strongly typed view models and helpers and partial views using ASP.NET Core MVC5, HTML5, CSS3, and Angular 9/11, C, and Telerik controls.</small></article>
             <article className='experience__details'>
               <h4>Technologies:</h4>
                 <small className='text-light'>.NET, ASP.NET MVC, </small>
@@ -34,19 +31,19 @@ const Experience = () => {
               <h3>Software Engineer</h3>
               <article className='experience__details'>
                 <GoDotFill className='experience__details-icon'/>
-                  <small className='text-light'>Developed WCF Services and REST APIs using ASP.NET MVC framework in C# using dependency injection. </small>
+                  <small className='text-light'> ●	Developed WCF Services and REST APIs using ASP.NET MVC framework in C# using dependency injection. </small>
               </article>
               <article className='experience__details'>
                 <GoDotFill className='experience__details-icon'/>
-                  <small className='text-light'> Integrating APIs and UI using Angular 5 and Typescript with Micro Frontend approach. </small>
-              </article>
+                  <small className='text-light'> ●	Managed Kubernetes clusters using CLI tools such as Kubectl and Kubectx, performing routine maintenance tasks and 
+troubleshooting issues, reducing downtime by 20%. </small></article>
               <article className='experience__details'>
                 <GoDotFill className='experience__details-icon'/>
-                  <small className='text-light'>Deployed projects on Microsoft Azure using Kubernetes for CI/CD, ensuring scalability and modularity. Conducted testing and code reviews to maintain code quality.</small>
-              </article>
+                  <small className='text-light'>●	Implemented secure authentication and authorization mechanisms using ASP.NET Identity and OAuth, enhancing application 
+security by 30% and ensuring compliance with industry standards. </small></article>
               <article className='experience__details'>
                 <h4>Technologies:</h4>
-                  <small className='text-light'>Snowflakes, Control-m, Python, shell scripts, RESTful APIs</small>
+                  <small className='text-light'> WCF, NET, ASP.NET MVC, RESTful APIs</small>
               </article>
           </div>
 

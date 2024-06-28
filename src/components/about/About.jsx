@@ -34,12 +34,7 @@ const About = () => {
               </article>
             </div>
             <p>
-                👋 I'm Praneeth Reddy. As a driven graduate student at Arizona State University,
-                I am constantly seeking opportunities to expand my knowledge and skills in the technology industry.
-                With a positive and proactive approach, I embrace challenges and am committed to gaining valuable
-                experience. I aspire to secure a fulfilling career as a software engineer or software development
-                engineer, utilizing my expertise to make meaningful contributions to the success of any organization.
-                Thank you 💜
+            👋 I'm Praneeth Reddy. As a driven graduate student at Arizona State University, I am constantly seeking opportunities to expand my knowledge and skills in the technology industry. With a positive and proactive approach, I embrace challenges and am committed to gaining valuable experience. My professional experience includes roles as a Software Developer at Delta Dental Insurance and Amrock LLC, as well as an internship at Cognizant Technology Solutions, where I honed my expertise in .NET, ASP.NET, MVC, RESTful APIs, and modern development patterns. I have successfully developed and maintained various applications, implemented CI/CD pipelines, and managed cloud deployments with Azure. Additionally, I have led and contributed to impactful projects such as ScanIT, ASU Pantry Application, and FoodGeeks. I aspire to secure a fulfilling career as a software engineer or software development engineer, utilizing my expertise to make meaningful contributions to the success of any organization. Thank you 💜
             </p>
 
           </div>

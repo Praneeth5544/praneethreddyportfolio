@@ -17,13 +17,14 @@ const Work = () => {
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon = {<TbBrandGithubCopilot />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{'color': '#4db5ff'}}>Cognizant Inc.</h3>
+                    <h3 className="vertical-timeline-element-title" style={{'color': '#4db5ff'}}>Delta Dental Insurance</h3>
                     <h4 className="vertical-timeline-element-subtitle" style={{'color': '#4db5ff'}}>Software Developer</h4>
                     <p style={{'color': '#bebebe'}}>
-                        •	Achieved 80% faster and more scalable push notification delivery by designing and implementing a high-performance microservice, enhancing user experience and engagement.
-                        <br/>•	Reduced message latency with WebSocket’s for efficient and reliable communication.
-                        <br/>•	Increased user engagement by 50% and decreased email notifications by 30%, orchestrating the end-to-end service lifecycle to provide customers with seamless access and utilization, enhancing their experience.
-                        <br/><br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/>Java, C#, JavaScript, ASP.Net, HTML, CSS, Angular, MySQL, Hibernate, React, Kafka, Microsoft Azure, Junit, Swagger
+                        ●	Developed and maintained ASP.NET MVC applications, including RESTful APIs and web pages, resulting in a 30% reduction in code defects and a 20% increase in application performance. 
+                        <br/>●	Refactored legacy .NET 4.8 Framework code to adhere to modern development patterns and frameworks, reducing technical debt and improving application maintainability and testability using .NET 7 Core. 
+                           <br/> ●	Designed Razor views with strongly typed view models and helpers and partial views using ASP.NET Core MVC5, HTML5, CSS3, and Angular 9/11, C, and Telerik controls. 
+
+                        <br/><br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/>C#, JavaScript, ASP.Net, HTML, CSS, Angular, MySQL, Hibernate, React, Kafka, Microsoft Azure, Junit, Swagger
                     </p>
                 </VerticalTimelineElement>  
 
@@ -36,12 +37,15 @@ const Work = () => {
                     icon = {<TbBrandGithubCopilot />}
                 >
                     <h3 className="vertical-timeline-element-title" style={{'color': '#4db5ff'}}>Cognizant Inc.</h3>
-                    <h4 className="vertical-timeline-element-subtitle" style={{'color': '#4db5ff'}}>Software Development Intern</h4>
-                    <p style={{'color': '#bebebe'}}>
-                        •	 Developed WCF Services and REST APIs using ASP.NET MVC framework in C# using dependency injection.
-                        <br/>• Integrating APIs and UI using Angular 5 and Typescript with Micro Frontend approach.
-                        <br/>• Deployed projects on Microsoft Azure using Kubernetes for CI/CD, ensuring scalability and modularity. Conducted testing and code reviews to maintain code quality.
-                        <br/><br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/> Java, C#, JavaScript, ASP.Net, HTML, CSS, Angular, MySQL, Hibernate, React, Kafka, Microsoft Azure, Junit, Swagger</p>
+                    <h4 className="vertical-timeline-element-subtitle" style={{'color': '#4db5ff'}}>Programmer Analyst</h4>
+                    <p style={{'color': '#bebebe'}}>●	Developed WCF Services and REST APIs using ASP.NET MVC framework in C# with dependency injection, enhancing modularity 
+        and code testability by 35%.  
+<br/>●	Managed Kubernetes clusters using CLI tools such as Kubectl and Kubectx, performing routine maintenance tasks and 
+troubleshooting issues, reducing downtime by 20%. 
+<br/>●	Implemented secure authentication and authorization mechanisms using ASP.NET Identity and OAuth, enhancing application 
+security by 30% and ensuring compliance with industry standards. 
+
+                        <br/><br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/> C#, JavaScript, ASP.Net, HTML, CSS, Angular, MySQL, Kubernates(Kubectl & Kubectx), Microsoft Azure, Swagger</p>
                 </VerticalTimelineElement>  
 
 
@@ -57,9 +61,12 @@ const Work = () => {
                     <h3 className="vertical-timeline-element-title" style={{'color': '#4db5ff'}}>Amrock LLC.</h3>
                     <h4 className="vertical-timeline-element-subtitle" style={{'color': '#4db5ff'}}>Software Engineering Intern</h4>
                     <p style={{'color': '#bebebe'}}>
-                    •	Developed modules in Procurement domain, integrating APIs and UI using Angular and Typescript.
-                        <br/>•	Utilized T-SQL to develop complex Stored Procedures in MS-SQL Server, ensuring efficient data processing.
-                        <br/>•	Contributed to agile development methodologies like Scrum and utilized testing tools like Postman and Fiddler.
+                    ●	Applied Object-Oriented Programming (OOPs) procedures to develop, modify, and debug front-end/back-end software applications using C# (.NET Core), JavaScript, Node.js, HTML, CSS, resulting in a 20% improvement in application performance.
+<br/>●	Implemented advanced T-SQL features such as Common Table Expressions (CTEs), window functions, and pivoting for complex 
+data transformations, resulting in a 20% increase in query efficiency and data processing speed. 
+<br/>●	Utilized T-SQL to develop complex stored procedures in MS-SQL Server, ensuring efficient data processing and handling up to 
+	10,000 transactions per minute. 
+
                         <br/><br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/> Java, C#, JavaScript, ASP.Net, HTML, CSS, Angular, MySQL, Hibernate, React, Kafka, Microsoft Azure, Junit, Swagger</p>
                 </VerticalTimelineElement>  
             </VerticalTimeline>

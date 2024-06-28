@@ -4,8 +4,9 @@ import './myprojects.css'
 import review from '../../assets/review.png'
 import hand_gestures from '../../assets/hand_gestures.png'
 import dsse from '../../assets/dsse.jpeg'
-import Vmeg from '../../assets/Vmeg.jpeg'
+import Vmeg from '../../assets/panty.jpeg'
 import Vote from '../../assets/Vote.jpeg'
+import food from '../../assets/foodgeeks.jpg'
 
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
@@ -43,14 +44,14 @@ const Myprojects = () => {
     "description": "I developed a machine learning application aimed at bridging communication barriers for the deaf and mute community. Leveraging Python, TensorFlow, and PyTorch, alongside OpenCV for image processing, NLTK for natural language processing, and Scikit-learn for data analysis, the application interprets sign language gestures captured via webcam with an impressive 92% accuracy rate. Transforming these gestures into text in real-time, it empowers users to express themselves fluidly, fostering inclusivity and accessibility in communication. This transformative technology heralds a new era of communication accessibility for the deaf and mute community.",
     "Technologies": "Python | TensorFlow | PyTorch |  OpenCV | NLTK (Natural Language Toolkit) | Scikit-learn | Matplotlib"
   },{
-    "title" : "Domain Specific Search Engine",
+    "title" : "Scan IT",
     "description": 
-    "I designed a sophisticated miniature search engine tailored for a news article corpus, revolutionizing information retrieval. By harnessing term frequency and inverse document frequency techniques, the system adeptly sifts through vast datasets to deliver the top 10 most relevant articles based on user queries. This powerful functionality enhances user experience by providing targeted and efficient access to pertinent news content. The technology stack driving this innovation includes Python for backend development and ReactJS for building a seamless and responsive user interface. This project signifies a significant advancement in information retrieval, facilitating streamlined access to valuable news articles for users.",
-     "Technologies": "Python, ReactJS"
+    "I initiated and executed a comprehensive project dedicated to revolutionizing shopping experiences with ScanIT, showcasing my proficiency in .NET, ASP.NET Core, Entity Framework, and Azure. As a critical part of this project, I developed a barcode-scanning application meticulously designed to offer personalized recommendations using OpenAI APIs. This undertaking allowed for enhanced user interaction and provided robust performance and scalability. Technologies utilized for this project included .NET, ASP.NET Core, Entity Framework, and Azure, demonstrating my adeptness in these tools.",
+    "Technologies": "Python, ReactJS"
   },{
-    "title" : "Hostel Management",
-    "description": "I initiated and executed a comprehensive project dedicated to the efficient management of VMEG hostels, showcasing my proficiency in Java and Java-swing. As a critical part of this project, I architected an end-to-end framework meticulously designed to capture and organize all pertinent hostel-related information. This undertaking allowed for streamlined and organized hostel data management, making essential details easily accessible. Technologies utilized for this project included Java, Java-swing, and MySQL, demonstrating my adeptness in these tools.",
-    "Technologies": "Java, Swing, MySQL"
+    "title" : "ASU Pantry Application",
+    "description": "I initiated and executed a comprehensive project dedicated to the efficient management of ASU Pantry, showcasing my proficiency in NodeJS, React, Docker, OAuth, MongoDB, Kubernetes, and AWS. As a critical part of this project, I led the launch of a web application meticulously designed for SJSU students to access the communal pantry, significantly reducing wait times and enhancing user experience. This undertaking allowed for streamlined and efficient inventory management and implemented CI/CD practices, making essential details easily accessible and ensuring continuous improvement. Technologies utilized for this project included NodeJS, React, Docker, OAuth, MongoDB, Kubernetes, and AWS, demonstrating my adeptness in these tools.",
+    "Technologies": "NodeJS, React, Docker, OAuth, MongoDB, Kubernetes, and AWS."
   },{
     "title" : "Online Election Portal",
     "description": " Built a database system for storing the information of voters, contested candidates, parties and symbols. Engineered several modules related to the usage of the electoral system for quick and efficient processing.",
@@ -136,6 +137,39 @@ const Myprojects = () => {
         </article> */}
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
+                <img src={dsse} alt="" />
+            </div>
+            <h3>ScanIT – Revolutionizing shopping experiences</h3>
+            <small className='text-light'>.NET | ASP.NET Core | Entity Framework | Azure | OpenAI APIs.</small>
+            <div className="portfolio__item-cta">
+              <Button onClick={() => handleClickOpen(2)}>more details</Button>
+            </div>
+            
+        </article>
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={Vmeg} alt="" />
+            </div>
+            <h3>ASU Pantry Application – Empowering ASU students with easy access to essentials</h3>
+            <small className='text-light'>NodeJS | React | Docker | OAuth | MongoDB | Kubernetes | AWS.</small>
+            <div className="portfolio__item-cta">
+              <Button onClick={() => handleClickOpen(3)}>more details</Button>
+            </div>
+            
+        </article>
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
+                <img src={food} alt="" />
+            </div>
+            <h3>FoodGeeks – Join the culinary journey with FoodGeeks</h3>
+            <small className='text-light'>.NET | ASP.NET Core | Entity Framework | Azure | OpenAI APIs.</small>
+            <div className="portfolio__item-cta">
+              <Button onClick={() => handleClickOpen(0)}>more details</Button>
+            </div>
+            
+        </article>
+        <article className='portfolio__item'>
+            <div className="portfolio__item-image">
                 <img src={review} alt="" />
             </div>
             <h3>Keyword Based Entity Extraction</h3>
@@ -156,28 +190,7 @@ const Myprojects = () => {
             </div>
             
         </article>
-        <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-                <img src={dsse} alt="" />
-            </div>
-            <h3>Domain Specific Search Engine</h3>
-            <small className='text-light'>Python | ReactJS </small>
-            <div className="portfolio__item-cta">
-              <Button onClick={() => handleClickOpen(2)}>more details</Button>
-            </div>
-            
-        </article>
-        <article className='portfolio__item'>
-            <div className="portfolio__item-image">
-                <img src={Vmeg} alt="" />
-            </div>
-            <h3>Hostel Management</h3>
-            <small className='text-light'>Java | Swing | MySQL</small>
-            <div className="portfolio__item-cta">
-              <Button onClick={() => handleClickOpen(3)}>more details</Button>
-            </div>
-            
-        </article>
+        
         <article className='portfolio__item'>
             <div className="portfolio__item-image">
                 <img src={Vote} alt="" />
