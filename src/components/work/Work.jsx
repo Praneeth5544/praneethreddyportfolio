@@ -13,7 +13,7 @@ const Work = () => {
                     className="vertical-timeline-element--work "
                     contentStyle={{ background: '#2c2c6c', color: '#fff', borderRadius: '2rem' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="Aug 2021 - Aug 2022"
+                    date="July 2023 - Present"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon = {<TbBrandGithubCopilot />}
                 >
@@ -32,7 +32,7 @@ const Work = () => {
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: '#2c2c6c', color: '#fff', borderRadius: '2rem' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="Feb 2021 - Jul 2021"
+                    date="Feb 2021 - Aug 2022"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon = {<TbBrandGithubCopilot />}
                 >
@@ -54,7 +54,7 @@ security by 30% and ensuring compliance with industry standards.
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: '#2c2c6c', color: '#fff', borderRadius: '2rem' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="Jul 2020 - Jan 2021"
+                    date="June 2020 - Jan 2021"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon = {<TbBrandAzure />}
                 >
