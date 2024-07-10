@@ -32,17 +32,6 @@ const Experience = () => {
                     </h4>
                 </div>
             </article>
-            {/* <article className='experience__details'>
-                <div className='spacing'>
-                    <h4>Frontend Tech</h4>
-                    <h4 className='text-light'>
-                        <ul>• Angular</ul>
-                        <ul>• React.js</ul>
-                        <ul>• HTML</ul>
-                        <ul>• CSS</ul>
-                    </h4>
-                </div>
-            </article> */}
             <article className='experience__details'>
                 <div className='spacing'>
                     <h4>Cloud Technologies</h4>
