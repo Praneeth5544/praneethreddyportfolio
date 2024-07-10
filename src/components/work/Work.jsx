@@ -13,39 +13,33 @@ const Work = () => {
                     className="vertical-timeline-element--work "
                     contentStyle={{ background: '#2c2c6c', color: '#fff', borderRadius: '2rem' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="July 2023 - Present"
+                    date="Aug 2023 - May 2024"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                    icon = {<TbBrandGithubCopilot />}
-                >
-                    <h3 className="vertical-timeline-element-title" style={{'color': '#4db5ff'}}>Delta Dental Insurance</h3>
-                    <h4 className="vertical-timeline-element-subtitle" style={{'color': '#4db5ff'}}>Software Developer</h4>
+                    icon = {<TbBrandGithubCopilot />} >
+                    <h3 className="vertical-timeline-element-title" style={{'color': '#4db5ff'}}>Elevance Health</h3>
+                    <h4 className="vertical-timeline-element-subtitle" style={{'color': '#4db5ff'}}>Full Stack Java Developer</h4>
                     <p style={{'color': '#bebebe'}}>
-                        ●	Developed and maintained ASP.NET MVC applications, including RESTful APIs and web pages, resulting in a 30% reduction in code defects and a 20% increase in application performance. 
-                        <br/>●	Refactored legacy .NET 4.8 Framework code to adhere to modern development patterns and frameworks, reducing technical debt and improving application maintainability and testability using .NET 7 Core. 
-                           <br/> ●	Designed Razor views with strongly typed view models and helpers and partial views using ASP.NET Core MVC5, HTML5, CSS3, and Angular 9/11, C, and Telerik controls. 
+                    <br/>● Developed and optimized the Appointment Scheduling Module using Java, Spring Boot, and J2EE, enhancing scheduling efficiency by 30% through effective API design and database integrations with MongoDB and SQL Server.
+                    <br/>● Designed and deployed the Insurance Policy Module using Java, Spring Boot, Docker, AWS, Kubernetes, and Jenkins, resulting in a 35% improvement in user interface responsiveness and consistent user experience across platforms.
 
-                        <br/><br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/>C#, JavaScript, ASP.Net, HTML, CSS, Angular, MySQL, Hibernate, React, Kafka, Microsoft Azure, Junit, Swagger
-                    </p>
+                    <br/>● Implemented Reactive Forms and Angular Services for seamless API communication with Spring Boot, leading to a 30% improvement in user engagement and scheduling efficiency.
+                    <br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/>: JavaSE, JDK 1.8, Hibernate 3.0, Spring, React, AWS, Groovy, Tiles, JSP, HTML, CSS, Angular 4, jQuery, XML, XSLT, SQL Server, Maven, Apache Tomcat 8, Sonar, Eclipse 6.0, SVN, WindowsXP, Jenkins, Springboot, JUnit, MongoDB, Docker</p>
                 </VerticalTimelineElement>  
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: '#2c2c6c', color: '#fff', borderRadius: '2rem' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="Feb 2021 - Aug 2022"
+                    date="Aug 2020 - June 2022"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon = {<TbBrandGithubCopilot />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{'color': '#4db5ff'}}>Cognizant Inc.</h3>
-                    <h4 className="vertical-timeline-element-subtitle" style={{'color': '#4db5ff'}}>Programmer Analyst</h4>
-                    <p style={{'color': '#bebebe'}}>●	Developed WCF Services and REST APIs using ASP.NET MVC framework in C# with dependency injection, enhancing modularity 
-        and code testability by 35%.  
-<br/>●	Managed Kubernetes clusters using CLI tools such as Kubectl and Kubectx, performing routine maintenance tasks and 
-troubleshooting issues, reducing downtime by 20%. 
-<br/>●	Implemented secure authentication and authorization mechanisms using ASP.NET Identity and OAuth, enhancing application 
-security by 30% and ensuring compliance with industry standards. 
-
-                        <br/><br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/> C#, JavaScript, ASP.Net, HTML, CSS, Angular, MySQL, Kubernates(Kubectl & Kubectx), Microsoft Azure, Swagger</p>
+                    <h3 className="vertical-timeline-element-title" style={{'color': '#4db5ff'}}>AT&T</h3>
+                    <h4 className="vertical-timeline-element-subtitle" style={{'color': '#4db5ff'}}> Java/J2EE Developer </h4>
+                    <p style={{'color': '#bebebe'}}>● Designed and developed the Customer Management Module using Java, Spring Boot, and Hibernate, managing customer profiles with MySQL, and built interactive UIs with Angular and SASS for a responsive experience.
+<br/>● Implemented secure authentication with Spring Security, utilizing JWT and OAuth 2.0 for user login and role-based access control, ensuring secure access to customer information.
+<br/>● Architected and deployed the Billing and Payment Module with Java, Spring Boot, and PostgreSQL, leveraging Docker and Kubernetes for microservices, and configured CI/CD pipelines with Jenkins, reducing deployment time by 50% and increasing release frequency by 40%.
+                        <br/><br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/> Java, JavaScript, Spring Boot, J2EE, Angular, Spring MVC, MongoDB, SQL Server, Docker, AWS, Kubernetes, Jenkins, Reactive Forms, Angular Services</p>
                 </VerticalTimelineElement>  
 
 
@@ -54,20 +48,20 @@ security by 30% and ensuring compliance with industry standards.
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: '#2c2c6c', color: '#fff', borderRadius: '2rem' }}
                     contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                    date="June 2020 - Jan 2021"
+                    date="June 2018 - July 2020"
                     iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                     icon = {<TbBrandAzure />}
                 >
-                    <h3 className="vertical-timeline-element-title" style={{'color': '#4db5ff'}}>Amrock LLC.</h3>
-                    <h4 className="vertical-timeline-element-subtitle" style={{'color': '#4db5ff'}}>Software Engineering Intern</h4>
+                    <h3 className="vertical-timeline-element-title" style={{'color': '#4db5ff'}}> Amrock </h3>
+                    <h4 className="vertical-timeline-element-subtitle" style={{'color': '#4db5ff'}}>Java Developer</h4>
                     <p style={{'color': '#bebebe'}}>
-                    ●	Applied Object-Oriented Programming (OOPs) procedures to develop, modify, and debug front-end/back-end software applications using C# (.NET Core), JavaScript, Node.js, HTML, CSS, resulting in a 20% improvement in application performance.
-<br/>●	Implemented advanced T-SQL features such as Common Table Expressions (CTEs), window functions, and pivoting for complex 
-data transformations, resulting in a 20% increase in query efficiency and data processing speed. 
-<br/>●	Utilized T-SQL to develop complex stored procedures in MS-SQL Server, ensuring efficient data processing and handling up to 
-	10,000 transactions per minute. 
+                    ●	Developed scalable and maintainable user interfaces using JavaScript, React, and Material-UI, integrated with SASS to optimize
+user experience and maintainability.<br/>●	Architected efficient middleware functions in Node.js and Express.js, enhancing authentication mechanisms and error handling,
+resulting in a 30% reduction in processing time.
+<br/>●	Leveraged Spring MVC to develop RESTful APIs and web applications, optimizing controller mappings and request handling to
+improve response times and application performance. 
 
-                        <br/><br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/> Java, C#, JavaScript, ASP.Net, HTML, CSS, Angular, MySQL, Hibernate, React, Kafka, Microsoft Azure, Junit, Swagger</p>
+                        <br/><br/><span style={{'color': '#4db5ff'}}>Technologies: </span> <br/>Java, JavaScript, Spring Boot, J2EE, Angular, Spring MVC, MongoDB, SQL Server, Docker, AWS, Kubernetes, Jenkins, Reactive Forms, Angular Services</p>
                 </VerticalTimelineElement>  
             </VerticalTimeline>
         </section>
