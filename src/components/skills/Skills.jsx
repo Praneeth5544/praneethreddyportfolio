@@ -34,15 +34,38 @@ const Experience = () => {
             </article>
             <article className='experience__details'>
                 <div className='spacing'>
-                    <h4>Cloud and Databases</h4>
+                    <h4>Frontend Tech</h4>
+                    <h4 className='text-light'>
+                        <ul>• Angular</ul>
+                        <ul>• React.js</ul>
+                        <ul>• HTML</ul>
+                        <ul>• CSS</ul>
+                    </h4>
+                </div>
+            </article>
+            <article className='experience__details'>
+                <div className='spacing'>
+                    <h4>Cloud Technologies</h4>
                     <h4 className='text-light'>
                         <ul>• AWS</ul>
+                        <ul>• Azure</ul>
+                        <ul>• Kubernetes</ul>
                         <ul>• Docker</ul>
-                        <ul>• Jenkins</ul>
+                        <ul>• Terraform</ul>
+                        <ul>• Helm</ul>
+                    </h4>
+                </div>
+            </article>
+            <article className='experience__details'>
+                <div className='spacing'>
+                    <h4>Database Technologies</h4>
+                    <h4 className='text-light'>
                         <ul>• MySQL</ul>
                         <ul>• MongoDB</ul>
                         <ul>• PostgreSQL</ul>
                         <ul>• Cassandra</ul>
+                        <ul>• Snowflake</ul>
+                        <ul>• SAP HANA</ul>
                     </h4>
                 </div>
             </article>
@@ -50,18 +73,17 @@ const Experience = () => {
                 <div className='spacing'>
                     <h4>Tools and Technology</h4>
                     <h4 className='text-light'>
-                        <ul>• Linux</ul>
-                        <ul>• GitHub</ul>
+                        <ul>• GIT</ul>
+                        <ul>• GitHub Actions</ul>
                         <ul>• Google Colab</ul>
                         <ul>• Postman</ul>
                         <ul>• Swagger</ul>
-                        <ul>• GIT</ul>
-                        <ul>• GitHub Actions</ul>
-                        <ul>• Azure Release Management</ul>
-                        <ul>• Terraform</ul>
-                        <ul>• Kubernetes CLI (Kubectl, Kubectx)</ul>
-                        <ul>• Helm</ul>
+                        <ul>• Jenkins</ul>
                         <ul>• Kafka</ul>
+                        <ul>• Figma</ul>
+                        <ul>• OpenAI</ul>
+                        <ul>• Linux</ul>
+                        <ul>• Azure Release Management</ul>
                     </h4>
                 </div>
             </article>
